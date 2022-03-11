@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="42.471677">
+<testcase classname="Customer Order Report" name="User wants some details about an order report" time="19.071812">
+<system-out><![CDATA[Given User is in Retail Login page..........................................passed
+And User Enters "admin" and "Admin@123" as valid username and password......passed
+When User click on Log in button............................................passed
+And User navigates to the Customer Order Report section.....................passed
+Given User Enters "Krishna Mohan"...........................................passed
+And Search for the Report...................................................passed
+Then The Report will show up in result section..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Customer Order Report" name="Change the Status of an existing order report" time="23.399865">
+<system-out><![CDATA[Given User is in Retail Login page..........................................passed
+And User Enters "admin" and "Admin@123" as valid username and password......passed
+When User click on Log in button............................................passed
+And User navigates to the Customer Order Report section.....................passed
+Given User Enters "Krishna Mohan"...........................................passed
+And Search for the Report...................................................passed
+When User clicks on edit button.............................................passed
+And Change the status from enabled to disable...............................passed
+When User search the history by IP..........................................passed
+Then Checks for the change..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

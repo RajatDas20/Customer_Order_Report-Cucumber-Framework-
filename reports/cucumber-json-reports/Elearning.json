@@ -1,0 +1,343 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Navigate to the Customer Order Report section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2926053500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Retail Login page",
+            "match": {
+              "location": "CustomerOrderReport.user_is_in_Retail_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181297700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters \"admin\" and \"Admin@123\" as valid username and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "CustomerOrderReport.user_Enters_and_as_valid_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3497386300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Log in button",
+            "match": {
+              "location": "CustomerOrderReport.user_click_on_Log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4013147100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to the Customer Order Report section",
+            "match": {
+              "location": "CustomerOrderReport.user_navigates_to_the_Customer_Order_Report_section()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-11T09:52:20.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2872187700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.enter()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User wants some details about an order report",
+        "description": "",
+        "id": "customer-order-report;user-wants-some-details-about-an-order-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 695628300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.exit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1122802800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Enters \"Krishna Mohan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krishna Mohan\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CustomerOrderReport.user_Enters(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1701295800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Search for the Report",
+            "match": {
+              "location": "CustomerOrderReport.search_for_the_Report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059457100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The Report will show up in result section",
+            "match": {
+              "location": "CustomerOrderReport.the_Report_will_show_up_in_result_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CustomerOrderReport"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Navigate to the Customer Order Report section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3357452000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Retail Login page",
+            "match": {
+              "location": "CustomerOrderReport.user_is_in_Retail_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164560400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters \"admin\" and \"Admin@123\" as valid username and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Admin@123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "CustomerOrderReport.user_Enters_and_as_valid_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2564447800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Log in button",
+            "match": {
+              "location": "CustomerOrderReport.user_click_on_Log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3709149000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to the Customer Order Report section",
+            "match": {
+              "location": "CustomerOrderReport.user_navigates_to_the_Customer_Order_Report_section()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-11T09:52:39.492Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1268288800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.enter()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Change the Status of an existing order report",
+        "description": "",
+        "id": "customer-order-report;change-the-status-of-an-existing-order-report;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 683700200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.exit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1126948700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Enters \"Krishna Mohan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Krishna Mohan\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CustomerOrderReport.user_Enters(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1509623500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Search for the Report",
+            "match": {
+              "location": "CustomerOrderReport.search_for_the_Report()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019125600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on edit button",
+            "match": {
+              "location": "CustomerOrderReport.user_clicks_on_edit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4301101300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Change the status from enabled to disable",
+            "match": {
+              "location": "CustomerOrderReport.change_the_status_from_enabled_to_disable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1646575600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User search the history by IP",
+            "match": {
+              "location": "CustomerOrderReport.user_search_the_history_by_IP()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2048114600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Checks for the change",
+            "match": {
+              "location": "CustomerOrderReport.checks_for_the_change()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CustomerOrderReport"
+          }
+        ]
+      }
+    ],
+    "name": "Customer Order Report",
+    "description": "",
+    "id": "customer-order-report",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/CustomerOrderReport.feature",
+    "tags": []
+  }
+]
